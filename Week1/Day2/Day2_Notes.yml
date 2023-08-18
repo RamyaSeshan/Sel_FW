@@ -1,0 +1,66 @@
+Selenium WebDriver:
+====================
+When We should not use Basic Loactors
+1.ID-numbers
+2.Name-Duplicate
+3.ClassName- white space(in-between)
+4.LinkText- duplicate
+
+
+Day_2- Xpath
+--------------
+
+total Xpath- 13
+
+
+XPath: XML Path
+
+2Types of Xpath:
+1.Absolute Xpath
+Ex: /html/body/div[2]/div[2]/div/form/p/input
+
+2.Relative Xpath
+     *Basic Xpath
+     *Advanced Xpath
+
+Basic XPath:
+
+//tagname[@attribute name='attribute value']
+
+1.Attribute based xpath
+
+//tagname[@attribute name='attribute value']
+Ex: //input[@id='username']
+
+2.Text based xpath
+
+//tagname[text()='text value']
+EX: //a[text()='Leads']
+//a[text()='Create Opportunity']
+
+3.partial Attribute based xpath
+
+//tagname[contains(@attribute,'attribute value')]
+Ex: //input[contains(@id,'ssw')]
+//input[contains(@class,'password')]
+
+4.Partial Text based xpath
+
+//tagname[contains(text(),'value')]
+Ex: //span[contains(text(),'Learn')]
+
+
+5.Collection or Index based xpath
+
+index-will start with '1'
+1 to 5 use index
+syntax
+(//tagname[@attr='attr value'])[index]
+
+index should go beyond 5
+
+
+if we should not give  index value- 6,7,10,34
+
+
+
