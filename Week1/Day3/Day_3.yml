@@ -1,0 +1,56 @@
+Selenium WebDriver:
+====================
+
+Day_3
+
+Advanced XPath:
+
+1.Parent to Child
+
+Baisc Xpath/tagname of Child
+ex: //div[@id='username_container']/input
+
+2.GrandParent to GrandChild
+
+GrandParent Basic xpath//tagname of GrandChild
+
+ex: //div[@id='usernamegroup']//input
+
+3.Child to Parent
+
+Child Basic xpath/parent::tagname parent
+
+ex: //input[@id='password']/parent::form
+
+
+4.GrandChild to GrandParent
+
+GrandChild basic xpath/ancestor::tagname GrandParent
+
+//span[text()='Learn More']/ancestor::div[@class='tileNavButton']
+
+//span[text()='Learn More']/ancestor::div
+
+5.ElderSibling to YoungerSibling
+
+ElderSibling basic xpath/following-sibling::tagname youngersibling
+
+ex: //div[@id='idcard-container']/following-sibling::input
+
+
+6.YoungerSibling to ElderSibling
+
+YoungerSibling basic xpath/preceding-sibling::tagname elder sibling
+Ex: //input[@name='Login']/preceding-sibling::div
+
+7.ElderCousin to YoungerCousin
+
+Eldercousin basic xpath/following::tagname of YoungerCousin
+
+ex://label[text()='Username']/following::input
+
+8.YoungerCousin to ElderCousin
+
+youngercousin basic xpath/preceding::tagname of ElderCousin
+
+ex: //input[@id='username']/preceding::label
