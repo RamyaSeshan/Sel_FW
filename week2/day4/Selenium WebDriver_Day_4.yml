@@ -1,0 +1,42 @@
+Selenium WebDriver
+==================
+
+DAY_4
+
+* Select Class(DropDown)
+* Implicit Wait
+
+
+DropDown
+===========
+
+Select Class
+<Select>
+Methods:
+1.selectbyindex
+index will start from '0'
+
+2.selectbyvisibleText
+
+3.selectbyvalue
+
+
+
+Wait
+=====
+1. Implicit Wait
+
+ It is applicable for all findElement() and findElements()
+
+  30 s -locate an element
+  username - 5s
+  password - 2s
+  login    > 30s  -> NoSuchElementException
+  -  
+            
+   
+
+Thread.sleep():
+  - Is applicable only for a single line of code
+  - Thread.sleep(5000);
+  - If it finds an element even in 2000ms -> 3000s is wasted
