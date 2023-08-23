@@ -1,0 +1,53 @@
+Selenium WebDriver:
+
+Day_6
+
+Alert
+-----
+
+what is alert?
+
+
+Alert is written by JavaScrpit
+
+two types alert:
+
+* Modal alert-is not inspectable
+  1.Simple alert-one action (ok)
+  2.Confirm alert-2 actions(ok/cancle)
+  3.Prompt alert-1 textbox and 2 actions(textbox/ok /cancle)
+* Non-Modal alert-its inspectable
+  1.sweet alert- will not pass swtich  driver control alert
+  we handle normal click.
+
+Methods:
+1.accpet
+2.dismiss
+3.gettext
+4.sendkeys
+
+
+
+
+  Frame:
+
+photo frame
+
+real time -iframe
+iframe-inline frame
+
+
+right click -inspect -//iframe
+right click- frame source
+
+Methods:
+=============
+
+frame(index)
+frame(String id/name)
+frame(WebElement)
+
+Nested frame -frame inside another frame
+
+driver.switchto().parentframe()
+driver.switchto().defaultcontent()
